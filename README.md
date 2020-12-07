@@ -1,32 +1,15 @@
-# Backend Take-Home Project for Coterie's insurance quote rating engine and API.
-
-## Example of Postman 
-If the API receives a payload of:
-```
-{
-    "revenue": 6000000,
-    "state": "TX",
-    "business": "Plumber"
-}
-```
-It should respond with a payload of:
-```
-{
-    "premium": 11316
-}
-```
-
-## Completed
-- .NET Core API with a `POST` endpoint that accepts and returns data per the above task description
-- API can be run locally and tested using Postman or other similar tools
-
-- Use git and GitHub for version control
-- **Have fun!** We're interested in seeing how you approach the challenge and how you solve problems with code. The goal is for you to be successful, so if you have any questions or something doesn't seem clear don't hesitate to ask. Asking questions and seeking clarification isn't a negative indicator about your skills - it shows you care and that you want to do well. Asking questions is *always* encouraged at Coterie, and our hiring process is no different.
+## Coterie Backend Take-Home Project
 
 ## Description of future features
 - Future features would include Sql Server backend database and removal of table data from appsettings
+  -- Tables needed: StateFactorDetail, BusinessFactorDetail, CalculationsTable (Holds type of calculation (BasePremium, HazardFactor, etc.) and formula - Still pondering this)
 - Complete documentation using Swagger
 - Additional testing in Postman for other state and business premium calculations
+- Extended endpoints to support API
+  -- Broker/Dealers and Agents
+  -- Policy Endpoints
+  -- Commission Endpoints
+- Security for system/PII/etc. 
 
 ## Instructions for running and testing API
 - 
