@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "3cef8ccb-5b32-494d-9e0a-a31337a2c9c0",
+		"name": "Coterie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetBusinessPremiiumQuote",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"revenue\": 6000000,\r\n    \"state\": \"TX\",\r\n    \"business\": \"Plumber\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44316/api/Rating/GetBusinessPremiumQuote",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44316",
+					"path": [
+						"api",
+						"Rating",
+						"GetBusinessPremiumQuote"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
