@@ -12,7 +12,8 @@
 - Security for system/PII/etc. 
 
 ## Instructions for running and testing API
-- 
+- Clone project from GitHub
+
 -
 -
 
