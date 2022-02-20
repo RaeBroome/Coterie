@@ -31,8 +31,6 @@
 - Paste the port number after the endpoint address. An example is: https://localhost:44316/api/Rating/GetBusinessPremiumQuote
 - Click the Send button in Postman. The calculated response is diplayed. 
 
-- If you have any problems with the application, I can be reached via email at raebroome67@gmail.com.
-
 ## Deliverables Checklist
 - [X] API written in .NET Core
 - [X] API accepts `POST` and returns data per above requirements
