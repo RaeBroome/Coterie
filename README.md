@@ -1,4 +1,4 @@
-## Coterie Backend Take-Home Project
+## Backend Project
 
 ## Description of future features
 - Try/Catch + Error Handling
@@ -38,4 +38,3 @@
 - [X] API accepts `POST` and returns data per above requirements
 - [X] Repo README has instructions for running and testing the API
 - [X] Repo README has information about what you'd do next, per above requirements
-- [X] Create a new GitHub repo and share it with karl@coterieinsurance.com
